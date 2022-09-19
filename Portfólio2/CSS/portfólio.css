@@ -1,0 +1,100 @@
+body{
+    background-color: black;
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    font-family: Bebas Neue;
+    font-size: 30px;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+main{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sec1{
+    margin: 70px;
+    
+}
+
+.topitems{
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 0;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    width: 1000px;
+}
+#top{
+    width: 80%;
+}
+li{
+    padding: 20px;
+}
+#b{
+    color: rgb(0, 102, 128);
+    text-decoration: none;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 10px;
+    padding: 8px;
+}
+#b:hover{
+    cursor: pointer;
+    background-color: black;
+    color: rgb(0, 102, 128);
+    border: 2px solid black;
+    box-shadow: 0px 0px 3px white;
+    transition: 0.1s;
+}
+
+#puc{
+    width: 90px;
+    height: 80px;
+    margin-top: 10px;
+    float:left; 
+}
+
+#pucfoto{
+    width: 90px;
+    height: 80px;
+    margin: 0;
+}
+.carrossel{
+    box-shadow: 2px 2px 3px gray;
+    overflow: hidden;
+    height: 500px;
+    width: 500px;
+    display:inline-flex;
+}
+.container{
+    display: flex;
+    transition:transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+#f{
+    object-fit: cover;
+    height: 500px;
+    width: 500px;
+}
+.button{
+    font-size: 50px;
+    padding: 0;
+    color: rgb(0, 102, 128);
+    font-family: consolas;
+    background-color: black;
+}
+.button:hover{
+    cursor: pointer;
+}
+.button:active{
+    color: transparent;
+    transition: 0.2s;
+}

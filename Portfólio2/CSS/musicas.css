@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+    color: rgb(0, 102, 128);
+    margin: auto;
+    font-family: Roboto;
+}
+header{
+    display: flex;
+    height: 140px;
+    background-color: beige;
+}
+main{
+    text-align: center;
+    width: 100%;   
+ 
+}
+.secinicio {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#t1{
+    font-family: poppins;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#t2{
+    font-family: poppins;
+}
+#boy {
+    height: 50px;
+    margin-top: 23px;
+}
+#fone{
+    height: 50px;
+    margin-top: 23px;
+}
+#voltar img {
+    position: fixed;
+    top: 40px;
+    left: 50px;
+    height: 50px;
+    width: 50px;
+}
+
+#artistas{
+    width: 500px;
+    height: 480px;
+}
+#artistasm{
+    height: 480px;
+}
+i{
+    color: green;
+    position: absolute;
+    padding-left: 10px;
+}
+#text{
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+}
+p{
+    margin:0  auto;
+    margin-top:20px;
+    margin-bottom: 50px;
+    font-size: 30px;
+}

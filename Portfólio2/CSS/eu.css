@@ -1,0 +1,159 @@
+body {
+    background-color: black;
+    color: rgb(0, 102, 128);
+    margin: auto;
+}
+
+header {
+    display: flex;
+    height: 140px;
+}
+
+main {
+    text-align: center;
+    width: 100%;
+}
+
+.secinicio {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.inicio1 {
+    margin-top: 10px;
+    height: 50px;
+}
+
+.inicio2 {
+    margin-top: 10px;
+    height: 50px;
+}
+
+#robo {
+    height: 50px;
+    margin-top: 4%;
+}
+
+#mind {
+    height: 50px;
+    margin-top: 4%;
+}
+
+#t1 {
+    font-family: poppins;
+    font-size: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 0;
+}
+
+.sec1 {
+    background-color: beige;
+    font-family: roboto;
+    width: 100%;
+    position: absolute;
+}
+
+.iniciofacul {
+    margin: 30px;
+}
+
+#t2 {
+    font-family: poppins;
+}
+
+p {
+    text-align: justify;
+    margin-right: 200px;
+    margin-left: 200px;
+    text-indent: 3ch;
+    font-size: 18px;
+}
+
+#math {
+    height: 40px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#pi {
+    margin-top: 30px;
+    height: 40px;
+    float: right;
+    margin-right: 20px;
+}
+
+#www {
+    margin-top: 35px;
+    height: 40px;
+    float: right;
+    margin-right: 20px;
+}
+
+#coding {
+    margin-top: 35px;
+    height: 40px;
+    float: left;
+    margin-left: 20px;
+}
+
+#calendar {
+    margin-top: 30px;
+    height: 40px;
+    float: left;
+    margin-left: 20px;
+
+}
+
+#rocket {
+    margin-top: 30px;
+    height: 40px;
+    float: right;
+    margin-right: 20px;
+}
+
+h2 {
+    font-family: poppins;
+    width: 100%;
+}
+
+.back-to-top {
+    position: fixed;
+    border-radius: 10px;
+    background-color: rgb(0, 102, 128);
+    border: 2px solid rgb(0, 102, 128);
+    font-size: 20px;
+    font-family: poppins;
+    font-weight: bold;
+    bottom: 50px;
+    right: 50px;
+}
+
+.back-to-top:hover {
+    cursor: pointer;
+    background-color: black;
+    color: rgb(0, 102, 128);
+    border: 2px solid black;
+    box-shadow: 0px 0px 3px white;
+    transition: 0.4s;
+}
+
+#voltar img {
+    position: fixed;
+    top: 40px;
+    left: 50px;
+    height: 50px;
+    width: 50px;
+}
+
+#ir img{
+    position: fixed;
+    top: 40px;
+    right: 50px;
+    height: 50px;
+    width: 50px;
+}
